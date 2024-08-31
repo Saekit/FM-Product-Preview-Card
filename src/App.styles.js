@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
       font-size: ${theme.fontSize.body};
       font-weight: ${theme.regular};
       line-height: ${theme.lineHeight.body};
-      color: ${theme.color.darkCyan};
+      color: ${theme.colors.darkCyan};
     `}
   }
 `;
