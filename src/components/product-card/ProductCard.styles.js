@@ -51,10 +51,15 @@ export const ProductName = styled.h1`
   line-height: 1;
 `;
 
+export const ProductDescription = styled(StyledText)`
+  margin: 30px 0px;
+`;
+
 export const PriceContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 30px;
 `;
 
 export const SalePrice = styled.p`

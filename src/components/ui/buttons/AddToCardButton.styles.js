@@ -15,7 +15,13 @@ export const StyledButton = styled.button`
   border-radius: 10px;
   font-size: 1rem;
   font-weight: 600;
-  margin: 10px 0px;
+  cursor: pointer;
+
+  &:hover {
+    ${({ theme }) => css`
+      background-color: ${theme.colors.veryDarkCyan};
+    `};
+  }
 `;
 export const ButtonText = styled.span`
   margin-left: 10px;

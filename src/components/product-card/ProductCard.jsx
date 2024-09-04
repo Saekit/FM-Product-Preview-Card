@@ -3,7 +3,7 @@ import {
   ProductContentContainer,
   StyledArticle,
   ProductName,
-  StyledText,
+  ProductDescription,
   SalePrice,
   PriceContainer,
   OriginalPrice,
@@ -19,7 +19,7 @@ const ProductCard = ({ product }) => {
       <ProductContentContainer>
         <ProductCategory>{product.category}</ProductCategory>
         <ProductName>{product.productName}</ProductName>
-        <StyledText>{product.description}</StyledText>
+        <ProductDescription>{product.description}</ProductDescription>
         <PriceContainer>
           <SalePrice>{product.salePrice}</SalePrice>
           <OriginalPrice>{product.price}</OriginalPrice>

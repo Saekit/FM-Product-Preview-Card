@@ -4,6 +4,7 @@ const defaultTheme = {
 
   colors: {
     darkCyan: "hsl(158, 36%, 37%)",
+    veryDarkCyan: "hsl(157.89, 42.22%, 17.65%)",
     cream: "hsl(30, 38%, 92%)",
     veryDarkBlue: "hsl(212, 21%, 14%)",
     darkGrayishBlue: "hsl(228, 12%, 48%)",
