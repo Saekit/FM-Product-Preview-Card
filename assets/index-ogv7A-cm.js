@@ -109,7 +109,8 @@ Error generating stack: `+o.message+`
 `,ka="/FM-Product-Preview-Card/assets/image-product-mobile-DjztVtzL.jpg",Qm="/FM-Product-Preview-Card/assets/image-product-desktop-BjYfQaQN.jpg",Gm=Se.img`
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 0;
