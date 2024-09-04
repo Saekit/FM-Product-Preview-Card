@@ -1,6 +1,6 @@
 const defaultTheme = {
-  fontPrimary: '"Montserrat", sans-serif;',
-  fontSecondary: '"Fraunces", serif;',
+  fontPrimary: '"Fraunces", serif;',
+  fontSecondary: '"Montserrat", sans-serif;',
 
   colors: {
     darkCyan: "hsl(158, 36%, 37%)",

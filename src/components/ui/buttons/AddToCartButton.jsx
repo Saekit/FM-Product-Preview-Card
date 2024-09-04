@@ -1,10 +1,10 @@
-import { StyledButton, StyledIcon } from "./AddToCardButton.styles";
-import CartIcon from "../../../assets/images/icon-cart.svg";
+import { ButtonText, StyledButton } from "./AddToCardButton.styles";
+import CartIcon from "../../../assets/images/CartIcon.jsx";
 
 const AddToCartButton = () => (
   <StyledButton>
-    <StyledIcon src={CartIcon} alt="cart" />
-    Add to Cart
+    <CartIcon />
+    <ButtonText>Add to Cart</ButtonText>
   </StyledButton>
 );
 export default AddToCartButton;

@@ -1,5 +1,5 @@
 const perfume = {
-  catagory: "Perfume",
+  category: "Perfume",
   productName: "Gabrielle Essence Eau De Parfum",
   description:
     "A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.",

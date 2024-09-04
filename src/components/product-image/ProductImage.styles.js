@@ -8,7 +8,7 @@ export const DefaultImage = styled.img`
   border-top-left-radius: 25px;
   border-bottom-left-radius: 0;
 
-  @media (min-width: 800px) {
+  @media (min-width: 600px) {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     border-top-right-radius: 0;
